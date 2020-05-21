@@ -1,0 +1,16 @@
+.title {
+    color: $title_color;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    &__white {
+        color: $white;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 23px;
+        text-transform: none;
+        margin-top: 20px;
+    }
+}

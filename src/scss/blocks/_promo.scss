@@ -4,14 +4,14 @@
     padding: 23px 0 82px;
     a {
         &:hover {
-            color: #ec644b;
+            color: $coral;
         };
     };
     &__header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        height: 132px;
+        align-items: flex-start;
+        height: 100px;
     };
     &__menu {
         display: flex;
@@ -19,8 +19,9 @@
         list-style: none;
         width: 600px;
         padding: 0;
+        margin-top: 30px;
         &_link {
-            color: #ffffff;
+            color: $white;
             font-size: 15px;
             font-weight: 400;
             line-height: 24px;
@@ -35,14 +36,15 @@
         };
     };
     &__havequstion {
-        color: #ffffff;
+        color: $white;
         font-size: 14px;
         font-weight: 300;
         text-align: right;
+        margin-top: 12px;
     };
     &__call {
         a {
-            color: #ffffff;
+            color: $white;
             font-size: 19px;
             font-weight: 700;
             line-height: 24px;
@@ -50,4 +52,69 @@
 
     };
 
+    &__descr {
+        color: $white;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 24px;
+    };
+    &__mainHeader {
+        color: $coral;
+        font-family: "Roboto Condensed";
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 0;
+    };
+    &__subheader {
+        color: $white;
+        font-family: "Roboto Condensed";
+        font-size: 42px;
+        line-height: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__hrs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 38px;
+    };
+    &__hr {
+        width: 387px;
+        margin: 0;
+    };
+    &__dot {
+        background-color: $white;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        margin: 0 12px;
+    };
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    &__item {
+        width: 260px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        &_descr {
+            margin-top: 15px;
+            color: $white;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: center;
+        }
+    }
 };

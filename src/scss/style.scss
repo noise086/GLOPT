@@ -1,1 +1,13 @@
-@import 'blocks/header';
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+
+.container {
+    padding: 0;
+}
+
+@import 'blocks/promo';
+@import 'blocks/bottom';

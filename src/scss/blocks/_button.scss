@@ -19,6 +19,21 @@
         font-size: 15px;
         font-weight: 700;
         line-height: 17.35px;
-    }
-
+    };
+    &_price {
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+    };
+    &_order {
+        display: block;
+        position: absolute;
+        bottom: -22px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 180px;
+        color: $white;
+        font-family: "Roboto Condensed";
+        text-transform: uppercase;
+    };
 };

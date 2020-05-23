@@ -17,14 +17,14 @@ $(document).ready(function() {
 				email: true
 				}
 			},
-			// messages: {
-			// 	name: "Введите Ваше Имя",
-			// 	phone: "Введите Ваш номер телефона",
-			// 	email: {
-			// 		required: "Введите Ваш Email",
-			// 		email: "Формат Email должен быть name@domain.com"
-			// 	}
-			// 	}
+			messages: {
+				name: "Введите Ваше Имя",
+				phone: "Введите Ваш номер телефона",
+				email: {
+					required: "Введите Ваш Email",
+					email: "Формат Email должен быть name@domain.com"
+				}
+				}
 			});
 		}
 

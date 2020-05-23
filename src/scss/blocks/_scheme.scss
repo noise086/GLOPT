@@ -1,0 +1,40 @@
+.scheme {
+    background-color: #f3f3f3;
+    padding: 51px 0 46px 0;
+    &__wrapper1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 30px;
+        
+    }
+    &__wrapper2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 810px;
+        margin: 0 auto;
+        margin-top: 23px;
+        
+    }
+    &__item {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    &__header {
+        margin-top: 12px;
+        color: $coral;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__descr {
+        margin-top: 12px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}

@@ -1,15 +1,15 @@
-.agent {
-    background: url(../img/agent_in_china_bg.jpg) center (center/cover) no-repeat;
-    padding: 58px 0 75px 0;
+.managers {
+    padding: 58px 0 76px 0;
+    background: url(../../img/managers_bg.jpg) center (center/cover) no-repeat;
     &__circle {
-        width: 102px;
-        height: 102px;
+        margin: 0 auto;
         border: 1px solid $white;
         border-radius: 100%;
+        height: 102px;
+        width: 102px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
     }
     &__subtitle {
         width: 984px;

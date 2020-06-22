@@ -1,0 +1,83 @@
+.quastions {
+    background: url('../../img/quasions_bg.jpg') center (center/cover) no-repeat;
+    padding: 62px 0 79px 0;
+    &__formWrapper {
+        margin: 0 auto;
+        width: 896px;
+        min-height: 297px;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding-bottom: 25px;
+        // margin-top: 62px;
+        // border: 1px solid rgba(0, 0, 0, 0.21);
+        // width: 100%;
+        position: relative;
+        input {
+            width: 268px;
+            height: 45px;
+            border-radius: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            background-color: $white;
+            padding-left: 25px;
+            color: #101010;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 24px;
+        }
+        textarea {
+            margin-top: 28px;
+            width: 813px;
+            height: 71px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            border-radius: 10px;
+            background-color: $white;
+            color: #616467;
+            font-size: 13px;
+            font-weight: 300;
+            padding: 18px 25px;
+        }
+        
+    }
+    &__header {
+        padding: 20px 0;
+        background-color: #25333c;
+        width: 100%;
+        color: $white;
+        font-size: 19px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__subheader {
+        color: $white;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    &__form {
+        margin-top: 18px;
+        text-align: center;
+        #name-error {
+            position: absolute;
+            left: 66px;
+            top: 145px;
+            color: red;
+        }
+        #phone-error {
+            position: absolute;
+            left: 340px;
+            top: 145px;
+            color: red;
+        }
+        #email-error {
+            position: absolute;
+            left: 613px;
+            top: 145px;
+            color: red;
+        }
+    }
+
+
+}

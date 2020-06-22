@@ -36,4 +36,11 @@
         font-family: "Roboto Condensed";
         text-transform: uppercase;
     };
+    &_quastions {
+        width: 180px;
+    }
+    &__footer {
+        margin-top: 0;
+        margin-left: auto;
+    }
 };

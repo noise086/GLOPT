@@ -1,0 +1,42 @@
+.map {
+    min-height: 500px;
+    position: relative;
+    &__info {
+        position: absolute;
+        width: 329px;
+        height: 158px;
+        background-color: $white;
+        top: 150px;
+        right: 878px;
+        padding: 27px 50px;
+    }
+    &__arrow    {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        transform: rotate(-45deg);
+        right: -20px;
+        top: 60px;
+        background-color: #fff;
+    }
+    &__moscow {
+        color: $coral;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__adress {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 23px;
+    }
+    &__email {
+        a {
+            color: $coral;
+        font-size: 14px;
+        font-weight: 300;
+        text-decoration: underline;
+        }
+    }
+
+}

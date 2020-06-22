@@ -1,0 +1,61 @@
+.footer {
+    background-color: #25333c;
+    padding: 24px 0 28px 0;
+    .row1 {
+        align-items: center;
+    }
+    &__logo {
+        a {
+            margin-right: 43px;
+        }
+        color: $white;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    &__quast {
+        color: $white;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 14px;
+        text-align: right;
+    }
+    &__number {
+        color: $white;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: right;
+    }
+
+    .row2 {
+        align-items: center;
+        margin-top: 10px;
+    }
+    &__site {
+        a {
+            opacity: 0.6;
+            color: $white;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 17px;
+        }
+    }
+    &__politic {
+        a {
+            color: $coral;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 17px;
+            text-decoration: underline;
+        }
+    }
+    &__creator {
+        opacity: 0.6;
+        color: $white;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+    }
+}

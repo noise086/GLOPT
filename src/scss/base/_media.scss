@@ -1,0 +1,45 @@
+@media (max-width: 1199px) {
+    .promo {
+        padding: 23px 0 50px;
+        &__header {
+            img {
+                width: 70px;
+                margin-right: 10px;
+            }
+        }
+        &__menu {
+            width: 500px;
+        }
+        &__menu_link {
+            font-size: 13px;
+        }
+        &__menu_item {
+            border: none;
+        }
+        &__item {
+            width: 220px;
+        }
+    }
+    .work {
+        &__item {
+            width: 300px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .price {
+        &__item {
+            width: 230px;
+        }
+        &__formWrapper {
+            padding: 66px 58px 53px;
+        }
+    }
+    .scheme {
+        &__item {
+            width: 247px;
+        }
+    }
+
+}

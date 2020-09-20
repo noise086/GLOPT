@@ -11,7 +11,6 @@
         height: 355px;
         border: 1px solid #e9e9e9;
         &_header {
-            width: 261px;
             height: 61px;
             background-color: #25333c;
             color: $white;
@@ -58,8 +57,9 @@
         width: 100%;
         position: relative;
         padding: 66px 158px 53px;
+
         input {
-            width: 268px;
+            width: 33%;
             height: 45px;
             border-radius: 20px;
             border: 1px solid rgba(0, 0, 0, 0.21);
@@ -74,6 +74,8 @@
         
     }
     &__form {
+        display: flex;
+        justify-content: space-between;
         #name-error {
             position: absolute;
             left: 185px;
